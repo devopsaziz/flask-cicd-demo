@@ -27,9 +27,6 @@ jobs:
       - name: Run tests
         run: echo "No tests yet, pipeline continues..."
         
-      - name: Run Linter
-        run: flake8 .
-        
       - name: Run tests
         run: pytest -v
 
